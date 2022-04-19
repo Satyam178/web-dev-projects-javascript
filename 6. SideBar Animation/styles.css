@@ -1,0 +1,160 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+     color: rgb(200, 176, 176);
+        
+}
+
+body
+{
+    background: #181818;
+    user-select:none;
+}
+
+
+.burger
+{
+    display: block;
+    float: right;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+h2:first-of-type
+{
+   
+   
+   display: inline-block;
+   position: absolute;
+   top: 2px;
+   left: 15px;
+   letter-spacing: 2px;
+   color: aliceblue;
+
+
+
+   
+}
+.item:last-of-type{
+    color: white;
+    
+}
+
+@media only screen and (max-width: 611px) {
+    
+    .item
+    {
+        display:none;
+    }
+   
+    
+  }
+
+
+
+.is-clicked
+{
+    color: white;
+    
+}
+
+.left-sidebar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color:rgba(5,152,98,0.3);
+    width: 380px;
+    height: 92vh;
+    border-radius: 10px;
+    top: 50px;
+    padding-top: 50px;
+    
+}
+
+.left-sidebar
+{
+    display: none;
+}
+.fa-xmark
+{
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 22px;
+}
+
+.left-s-item
+{
+   font-size: 20px;
+   color: white;
+   cursor: pointer;
+   position: static;
+   padding: 10px;
+   width: 100%;
+   text-align: center;
+   padding: 50px 0 35px 0;
+   
+}
+
+
+
+
+.left-s-item:hover
+{
+    background-color: ;
+   background-image: linear-gradient(to left,rgba(5,152,98,0.3),rgba(5,152,98,0));
+}
+
+/* .left-s-item:first-of-type
+{
+    margin-top: 90px;
+
+} */
+
+
+.cross
+{
+    width: 15px;
+    height: 15px;
+}
+.cross:hover
+{
+    transform:  scale(1.1);
+    transform-origin: center;
+
+    
+}
+
+.icon-container
+{
+    display: flex;
+    gap: 40px;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    
+}
+
+.i:hover
+{
+  color: white;
+}
+.icon-item
+{
+    font-size: 26px;
+    cursor: pointer;
+    
+}
+.fa-bars:hover
+{
+   color: white;
+}
+
